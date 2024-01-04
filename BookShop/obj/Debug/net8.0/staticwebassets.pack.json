@@ -13,6 +13,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\1298a528-0418-4a9f-940f-1ac183322776.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\1298a528-0418-4a9f-940f-1ac183322776.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\3567537e-00a4-4a66-832b-46a030442779.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\3567537e-00a4-4a66-832b-46a030442779.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\38160d5b-fe40-499f-92db-fe5553d5210d.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\38160d5b-fe40-499f-92db-fe5553d5210d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\59543621-8b00-4907-8972-57d90175e2fa.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\59543621-8b00-4907-8972-57d90175e2fa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\b56996a3-d578-46e8-af74-66a499bab637.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\b56996a3-d578-46e8-af74-66a499bab637.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\eff6b07e-0bcc-4e78-9915-b59168957a8b.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\eff6b07e-0bcc-4e78-9915-b59168957a8b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

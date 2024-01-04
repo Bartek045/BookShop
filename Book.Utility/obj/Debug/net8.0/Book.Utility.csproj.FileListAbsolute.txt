@@ -1,0 +1,12 @@
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\bin\Debug\net8.0\Book.Utility.deps.json
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\bin\Debug\net8.0\Book.Utility.dll
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\bin\Debug\net8.0\Book.Utility.pdb
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\Book.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\Book.Utility.AssemblyInfoInputs.cache
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\Book.Utility.AssemblyInfo.cs
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\Book.Utility.csproj.CoreCompileInputs.cache
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\Book.Utility.sourcelink.json
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\Book.Utility.dll
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\refint\Book.Utility.dll
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\Book.Utility.pdb
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\ref\Book.Utility.dll
