@@ -5,12 +5,80 @@
       "PackagePath": "staticwebassets\\BookShop.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\001-atom.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\001-atom.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\001-thriller.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\001-thriller.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\001-toys.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\001-toys.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\002-cross.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\002-cross.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\002-zombie.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\002-zombie.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\003-dragon.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\003-dragon.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\003-musical-notes.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\003-musical-notes.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\004-crime-investigation.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\004-crime-investigation.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\004-plane.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\004-plane.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\005-abduction.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\005-abduction.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\005-sports.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\005-sports.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\006-gun.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\006-gun.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\007-ancient-scroll.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\007-ancient-scroll.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\008-biography.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\008-biography.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\009-book.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\009-book.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\010-hearts.png",
+      "PackagePath": "staticwebassets\\images\\categoryicons\\010-hearts.png"
     },
     {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\1298a528-0418-4a9f-940f-1ac183322776.jpg",
@@ -23,6 +91,10 @@
     {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\38160d5b-fe40-499f-92db-fe5553d5210d.jpg",
       "PackagePath": "staticwebassets\\images\\product\\38160d5b-fe40-499f-92db-fe5553d5210d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\5689b898-66f4-409c-b0a6-cca4a909f053.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\5689b898-66f4-409c-b0a6-cca4a909f053.jpg"
     },
     {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\59543621-8b00-4907-8972-57d90175e2fa.jpg",

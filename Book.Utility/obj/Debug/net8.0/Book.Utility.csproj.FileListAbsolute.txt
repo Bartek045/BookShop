@@ -10,3 +10,4 @@ C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug
 C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\refint\Book.Utility.dll
 C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\Book.Utility.pdb
 C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\ref\Book.Utility.dll
+C:\Users\barte\Desktop\GitHubRepository\BookShop\BookShop\Book.Utility\obj\Debug\net8.0\Book.Utility.csproj.AssemblyReference.cache
