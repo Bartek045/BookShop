@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\BookShop.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\productIcon.css",
+      "PackagePath": "staticwebassets\\css\\productIcon.css"
     },
     {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\site.css",
@@ -93,12 +101,12 @@
       "PackagePath": "staticwebassets\\images\\product\\38160d5b-fe40-499f-92db-fe5553d5210d.jpg"
     },
     {
-      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\5689b898-66f4-409c-b0a6-cca4a909f053.jpg",
-      "PackagePath": "staticwebassets\\images\\product\\5689b898-66f4-409c-b0a6-cca4a909f053.jpg"
-    },
-    {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\59543621-8b00-4907-8972-57d90175e2fa.jpg",
       "PackagePath": "staticwebassets\\images\\product\\59543621-8b00-4907-8972-57d90175e2fa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\ad0f78fa-8aae-469c-be75-f2c98f6fb500.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\ad0f78fa-8aae-469c-be75-f2c98f6fb500.jpg"
     },
     {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\b56996a3-d578-46e8-af74-66a499bab637.jpg",
@@ -107,6 +115,10 @@
     {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\eff6b07e-0bcc-4e78-9915-b59168957a8b.jpg",
       "PackagePath": "staticwebassets\\images\\product\\eff6b07e-0bcc-4e78-9915-b59168957a8b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\js\\cart.js",
+      "PackagePath": "staticwebassets\\js\\cart.js"
     },
     {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\js\\product.js",

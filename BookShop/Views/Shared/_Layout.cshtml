@@ -53,7 +53,7 @@
 
                     </ul>
 
-                    <partial name="_LoginPartial" />
+
 
                 </div>
             </div>
@@ -73,75 +73,91 @@
                         <ul class="dropdown-menu multi-column columns-4">
                             <div class="row">
                                 <div class="col">
-                                    <a class="dropdown-item" asp-area="Customer" asp-controller="Category" asp-action="Index">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Action')">
                                         <img src="~/images/categoryicons/006-gun.png" class="category-icon"> Action
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('SciFi')">
                                         <img src="~/images/categoryicons/005-abduction.png" class="category-icon"> SciFi
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('History')">
                                         <img src="~/images/categoryicons/007-ancient-scroll.png" class="category-icon"> History
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Crime')">
                                         <img src="~/images/categoryicons/004-crime-investigation.png" class="category-icon"> Crime
                                     </a>
                                 </div>
                                 <div class="col">
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Biography')">
                                         <img src="~/images/categoryicons/008-biography.png" class="category-icon"> Biography
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Fantasy')">
                                         <img src="~/images/categoryicons/003-dragon.png" class="category-icon"> Fantasy
-                                    </a>
-                                    <a class="dropdown-item" href="#">
-                                        <img src="~/images/categoryicons/009-book.png" class="category-icon"> Fiction
-                                    </a>
-                                    <a class="dropdown-item" href="#">
-                                        <img src="~/images/categoryicons/002-zombie.png" class="category-icon"> Horror
-                                    </a>
+                                        </>
+                                        <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Fiction')">
+                                            <img src="~/images/categoryicons/009-book.png" class="category-icon"> Fiction
+                                        </a>
+                                        <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Horror')">
+                                            <img src="~/images/categoryicons/002-zombie.png" class="category-icon"> Horror
+                                        </a>
                                 </div>
                                 <div class="col">
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Romance')">
                                         <img src="~/images/categoryicons/010-hearts.png" class="category-icon"> Romance
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Science')">
                                         <img src="~/images/categoryicons/001-atom.png" class="category-icon"> Science
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Thriller')">
                                         <img src="~/images/categoryicons/001-thriller.png" class="category-icon"> Thriller
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Sport')">
                                         <img src="~/images/categoryicons/005-sports.png" class="category-icon"> Sport
                                     </a>
                                 </div>
                                 <div class="col">
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Travel')">
                                         <img src="~/images/categoryicons/004-plane.png" class="category-icon"> Travel
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Music')">
                                         <img src="~/images/categoryicons/003-musical-notes.png" class="category-icon"> Music
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Religion')">
                                         <img src="~/images/categoryicons/002-cross.png" class="category-icon"> Religion
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="javascript:void(0);" onclick="loadProduct('Childrens')">
                                         <img src="~/images/categoryicons/001-toys.png" class="category-icon"> Childrens
                                     </a>
                                 </div>
                             </div>
                         </ul>
                     </li>
+
                     <li class="nav-item">
                         <i class="bi bi-person-fill profile-icon"></i>
                         <div class="profile-menu">
-                            <a href="#" class="menu-link">Login</a>
-                            <a href="#" class="menu-link">Register</a>
-                            <a href="#" class="menu-link">My Account</a>
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+                                <a class="menu-link" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                                <a class="menu-link" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                            }
+                            <a id="manage" class="menu-link" asp-area="Identity" asp-page="/Account/Manage/Index">My Account</a>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                    <button id="logout" type="submit" class="menu-link btn btn-link border-0 profile-menu-item">Logout</button>
+                                </form>
+                            }
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <i class="bi bi-cart-fill card-icon"></i>
+                    <li class="nav-item position-relative">
+                        <a asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                            <i class="bi bi-cart-fill card-icon"></i>
+                            <span class="badge badge-pill badge-danger text-dark     position-absolute top-0 start-100 translate-middle">
+                                5 
+                            </span>
+                        </a>
                     </li>
+
 
                 </ul>
 

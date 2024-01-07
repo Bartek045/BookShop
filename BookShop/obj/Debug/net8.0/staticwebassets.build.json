@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7g7oqiUYx5muvvfRvU4/TOaG0hY/UjleCx6rN8XqOqQ=",
+  "Hash": "ZZYUjvKzMy6NbO8OJGRNTaVR4GuRJvYlJ8WFdmSa+aU=",
   "Source": "BookShop",
   "BasePath": "_content/BookShop",
   "Mode": "Default",
@@ -1233,6 +1233,25 @@
       "OriginalItemSpec": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BookShop.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\cart.css",
+      "SourceId": "BookShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\",
+      "BasePath": "_content/BookShop",
+      "RelativePath": "css/cart.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cart.css"
+    },
+    {
       "Identity": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\login.css",
       "SourceId": "BookShop",
       "SourceType": "Discovered",
@@ -1250,6 +1269,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\productIcon.css",
+      "SourceId": "BookShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\",
+      "BasePath": "_content/BookShop",
+      "RelativePath": "css/productIcon.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\productIcon.css"
     },
     {
       "Identity": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\site.css",
@@ -1651,25 +1689,6 @@
       "OriginalItemSpec": "wwwroot\\images\\product\\38160d5b-fe40-499f-92db-fe5553d5210d.jpg"
     },
     {
-      "Identity": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\5689b898-66f4-409c-b0a6-cca4a909f053.jpg",
-      "SourceId": "BookShop",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\",
-      "BasePath": "_content/BookShop",
-      "RelativePath": "images/product/5689b898-66f4-409c-b0a6-cca4a909f053.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\5689b898-66f4-409c-b0a6-cca4a909f053.jpg"
-    },
-    {
       "Identity": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\59543621-8b00-4907-8972-57d90175e2fa.jpg",
       "SourceId": "BookShop",
       "SourceType": "Discovered",
@@ -1687,6 +1706,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\59543621-8b00-4907-8972-57d90175e2fa.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\ad0f78fa-8aae-469c-be75-f2c98f6fb500.jpg",
+      "SourceId": "BookShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\",
+      "BasePath": "_content/BookShop",
+      "RelativePath": "images/product/ad0f78fa-8aae-469c-be75-f2c98f6fb500.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\ad0f78fa-8aae-469c-be75-f2c98f6fb500.jpg"
     },
     {
       "Identity": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\b56996a3-d578-46e8-af74-66a499bab637.jpg",
@@ -1725,6 +1763,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\eff6b07e-0bcc-4e78-9915-b59168957a8b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\js\\cart.js",
+      "SourceId": "BookShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\",
+      "BasePath": "_content/BookShop",
+      "RelativePath": "js/cart.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cart.js"
     },
     {
       "Identity": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\js\\product.js",
