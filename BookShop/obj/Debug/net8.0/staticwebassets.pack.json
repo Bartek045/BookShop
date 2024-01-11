@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\cart.css"
     },
     {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\cartstyle.css",
+      "PackagePath": "staticwebassets\\css\\cartstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\delivery.css",
+      "PackagePath": "staticwebassets\\css\\delivery.css"
+    },
+    {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
@@ -87,6 +95,22 @@
     {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\categoryicons\\010-hearts.png",
       "PackagePath": "staticwebassets\\images\\categoryicons\\010-hearts.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\paymenticons\\blik.png",
+      "PackagePath": "staticwebassets\\images\\paymenticons\\blik.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\paymenticons\\card.png",
+      "PackagePath": "staticwebassets\\images\\paymenticons\\card.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\paymenticons\\fast.png",
+      "PackagePath": "staticwebassets\\images\\paymenticons\\fast.png"
+    },
+    {
+      "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\paymenticons\\pay.png",
+      "PackagePath": "staticwebassets\\images\\paymenticons\\pay.png"
     },
     {
       "Id": "C:\\Users\\barte\\Desktop\\GitHubRepository\\BookShop\\BookShop\\BookShop\\wwwroot\\images\\product\\1298a528-0418-4a9f-940f-1ac183322776.jpg",

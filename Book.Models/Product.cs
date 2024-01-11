@@ -49,5 +49,12 @@ namespace Book.Models
         [ValidateNever]
         public string ImageUrl { get; set; }
 
+        [ValidateNever]
+        public int QuantityInCart {  get; set; }
+        public Product()
+        {
+            QuantityInCart = 0;
+        }
+
     }
 }

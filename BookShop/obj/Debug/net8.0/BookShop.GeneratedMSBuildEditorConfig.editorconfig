@@ -58,12 +58,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/barte/Desktop/GitHubRepository/BookShop/BookShop/BookShop/Areas/Customer/Views/Cart/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+[C:/Users/barte/Desktop/GitHubRepository/BookShop/BookShop/BookShop/Areas/Customer/Views/Cart/Delivery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxEZWxpdmVyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/barte/Desktop/GitHubRepository/BookShop/BookShop/BookShop/Areas/Customer/Views/Home/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+[C:/Users/barte/Desktop/GitHubRepository/BookShop/BookShop/BookShop/Areas/Customer/Views/Cart/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/barte/Desktop/GitHubRepository/BookShop/BookShop/BookShop/Areas/Customer/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/barte/Desktop/GitHubRepository/BookShop/BookShop/BookShop/Areas/Customer/Views/Home/Index.cshtml]
@@ -180,6 +184,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/barte/Desktop/GitHubRepository/BookShop/BookShop/BookShop/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/barte/Desktop/GitHubRepository/BookShop/BookShop/BookShop/Areas/Identity/Pages/Account/Manage/ShippingAddress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hpcHBpbmdBZGRyZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/barte/Desktop/GitHubRepository/BookShop/BookShop/BookShop/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]

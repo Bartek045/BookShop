@@ -1,0 +1,138 @@
+﻿.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+    margin-right: 10px;
+    max-height:300px;
+    height:300px;
+}
+
+.delivery-container {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left:10px;
+    border-radius: 8px;
+    max-height: 220px;
+    max-width: 700px;
+    background-color: white;
+}
+
+.delivery-method,
+.invoice-method,
+.invoice-address {
+    padding: 10px;
+}
+
+input[type=radio] {
+    border-color: orange;
+}
+
+.invoice-container {
+    flex: 1;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    max-height: 1000px;
+    max-width: 700px;
+    margin-top: -90px;
+    background-color: white;
+}
+
+.individual {
+    padding: 10px;
+}
+
+.company {
+    margin-left: 100px;
+}
+
+.order-method  {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: -10px;
+    margin-right: 10px;
+    height:700px;
+    max-height:500px;
+    max-width: 500px;
+    background-color: white;
+    display: flex;
+}
+.btn-adress {
+    color: orangered;
+    display: flex;
+    border: 1px solid #000000;
+    background-color: white;
+    width: 200px;
+    justify-content: center;
+    flex: 1;
+    margin-left: 250px;
+    border-color: orangered;
+    transition: background-color 0.3s ease;
+}
+.btn-adress:hover{
+    color:orange;
+    border-color:orange;
+}
+.btn-payment{
+    margin-top:20px;
+    background-color:white;
+    border-color:gray;
+    border-radius:10px;
+    width:300px;
+    display:block;
+    margin-bottom:30px;
+    height:50px;
+}
+.btn-delivery btn-primary {
+    margin-left:10px;
+    padding:10px;
+    width:10px;
+}
+.delivery-options {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+.price{
+    
+    font-weight:bold;
+    justify-content:right;
+    
+    
+}
+.cart-total2,
+.product-total2,
+.delivery-total2 {
+    height: 10px;
+}
+
+
+body {
+    background-color: rgb(241, 243, 247);
+}
+
+@media only screen and (max-width: 600px) {
+    .delivery-container,
+    .invoice-container,
+    .order-method {
+        max-width: 100%; 
+        margin-left: 0; 
+        margin-right: 0; 
+    }
+
+    .btn-adress {
+        width: 100%; 
+        margin-left: 0; 
+    }
+
+    .btn-payment {
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+}

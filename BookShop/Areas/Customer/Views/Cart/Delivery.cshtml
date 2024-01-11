@@ -1,0 +1,191 @@
+﻿@{
+    Layout = "_CartLayout";
+}
+
+
+<body>
+  <div class="main-container">
+    <div class="delivery-container">
+        <div class="delivery-method">
+            <strong>SELECT A METHOD OF DELIVERY</strong>
+        </div>
+        <form>
+            <div class="delivery-option">
+                <label>
+                    <input type="radio" name="delivery" value="apple"> In-store pickup
+                </label>
+                <span class="price">$5.00</span>
+            </div>
+
+            <div class="delivery-option">
+                <label>
+                    <input type="radio" name="delivery" value="banana"> Point-to-point delivery - parcel machines 24/7
+                </label>
+                <span class="price">$10.00</span>
+            </div>
+
+            <div class="delivery-option">
+                <label>
+                    <input type="radio" name="delivery" value="orange"> Courier service - DHL
+                </label>
+                <span class="price">$15.00</span>
+            </div>
+
+            <div class="delivery-option">
+                <label>
+                    <input type="radio" name="delivery" value="grape"> Courier service
+                </label>
+                <span class="price">$12.00</span>
+            </div>
+
+            <div class="delivery-option">
+                <label>
+                    <input type="radio" name="delivery" value="strawberry"> Point-to-point delivery - post
+                </label>
+                <span class="price">$8.00</span>
+            </div>
+        </form>
+    </div>
+
+    <div class="order-method">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td class="cart-total2">
+                        <strong>Cart value:</strong> <span class="cart-total-price"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="product-total2">
+                        <strong>Value of products:</strong><span class="product-total-price"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="delivery-total2">
+                        <strong>Delivery cost from:</strong><span class="delivery-total-price"> </span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="btn-delivery">
+                        <a asp-area="Customer" asp-controller="Cart" asp-action="Delivery" class="btn btn-primary">ORDER AND PAY</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+    <div class="invoice-container">
+        <table class="table">
+            
+                <div class="invoice-method">
+                    <strong>Invoice and payment</strong>
+                </div>
+                <div class="invoice-address">
+                    <strong>INVOICE ADDRESS</strong>
+                </div>
+                <form>
+                    <label class="individual">
+                        <input type="radio" name="delivery" value="individual"> Individual
+                    </label>
+                    <label class="company">
+                        <input type="radio" name="delivery" value="company"> Company
+                    </label>
+                </form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="password" class="form-label text-muted">Name</label>
+                        <div class="form-floating">
+                            <input id="name" class="form-control" autocomplete="" aria-required="true" placeholder="" />
+                            <span class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="surname" class="form-label text-muted">Surname</label>
+                        <div class="form-floating">
+                            <input id="surname" class="form-control" autocomplete="" aria-required="true" placeholder="" />
+                            <span class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="phone" class="form-label text-muted">Phone</label>
+                        <div class="form-floating">
+                            <input id="phone" class="form-control" autocomplete="" aria-required="true" placeholder="" />
+                            <span class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="country" class="form-label text-muted">Country</label>
+                        <div class="form-floating">
+                            <input id="country" class="form-control" autocomplete="" aria-required="true" placeholder="" />
+                            <span class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="street" class="form-label text-muted">Street</label>
+                        <div class="form-floating">
+                            <input id="street" class="form-control" autocomplete="" aria-required="true" placeholder="" />
+                            <span class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="number" class="form-label text-muted">Number</label>
+                        <div class="form-floating">
+                            <input id="number" class="form-control" autocomplete="" aria-required="true" placeholder="" />
+                            <span class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="local" class="form-label text-muted">Local (optional)</label>
+                        <div class="form-floating">
+                            <input id="local" class="form-control" autocomplete="" aria-required="true" placeholder="" />
+                            <span class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit"
+                        class="btn-adress">
+                    Add new adress
+                </button>
+
+                <div>
+                    <strong>Payment method</strong>
+                </div>
+                <button type="submit"
+                        class="btn-payment">
+                    <img src="~/images/paymenticons/blik.png"></img>
+                    BLIK
+                </button>
+                <button type="submit"
+                        class="btn-payment">
+                    <img src="~/images/paymenticons/pay.png"></img>
+                    Google Pay
+                </button>
+                <button type="submit"
+                        class="btn-payment">
+                    <img src="~/images/paymenticons/fast.png"></img>
+                    Fast transfer
+                </button>
+                <button type="submit"
+                        class="btn-payment">
+                    <img src="~/images/paymenticons/card.png"></img>
+                    Payment card
+                </button>
+            
+        </table>
+    </div>
+
+    
+
+</body>
+

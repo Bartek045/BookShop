@@ -102,6 +102,9 @@ namespace Book.DataAccess.Migrations
                     b.Property<double>("Price50")
                         .HasColumnType("float");
 
+                    b.Property<int>("QuantityInCart")
+                        .HasColumnType("int");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -125,6 +128,7 @@ namespace Book.DataAccess.Migrations
                             Price = 90.0,
                             Price100 = 80.0,
                             Price50 = 85.0,
+                            QuantityInCart = 0,
                             Title = "Fortune of Time"
                         },
                         new
@@ -139,6 +143,7 @@ namespace Book.DataAccess.Migrations
                             Price = 30.0,
                             Price100 = 20.0,
                             Price50 = 25.0,
+                            QuantityInCart = 0,
                             Title = "Dark Skies"
                         },
                         new
@@ -153,6 +158,7 @@ namespace Book.DataAccess.Migrations
                             Price = 50.0,
                             Price100 = 35.0,
                             Price50 = 40.0,
+                            QuantityInCart = 0,
                             Title = "Vanish in the Sunset"
                         },
                         new
@@ -167,6 +173,7 @@ namespace Book.DataAccess.Migrations
                             Price = 65.0,
                             Price100 = 55.0,
                             Price50 = 60.0,
+                            QuantityInCart = 0,
                             Title = "Cotton Candy"
                         },
                         new
@@ -181,6 +188,7 @@ namespace Book.DataAccess.Migrations
                             Price = 27.0,
                             Price100 = 20.0,
                             Price50 = 25.0,
+                            QuantityInCart = 0,
                             Title = "Rock in the Ocean"
                         },
                         new
@@ -195,6 +203,7 @@ namespace Book.DataAccess.Migrations
                             Price = 23.0,
                             Price100 = 20.0,
                             Price50 = 22.0,
+                            QuantityInCart = 0,
                             Title = "Leaves and Wonders"
                         });
                 });
@@ -353,12 +362,10 @@ namespace Book.DataAccess.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -395,12 +402,10 @@ namespace Book.DataAccess.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");

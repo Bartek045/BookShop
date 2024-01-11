@@ -1,3 +1,98 @@
 ﻿@{
     Layout = "_CartLayout";
 }
+@model List<Product>
+
+<link rel="stylesheet" href="~/css/cartstyle.css" />
+
+<h2>Cart</h2>
+
+@if (Model.Any())
+{
+    <div class="cart-container">
+        <div class="cart-details">
+            <table id="tblData" class="table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Unit Price</th>
+                        <th>Count</th>
+                        <th>Sum</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>
+                                <div>
+                                    <strong>@product.Title</strong>
+                                </div>
+                                <div>
+                                    <img src="@product.ImageUrl" alt="@product.Title" width="50" />
+                                </div>
+                            </td>
+                            <td>@product.Price.ToString("c", new CultureInfo("en-US"))</td>
+
+
+                            <td>
+                                <div class="quantity-container">
+                                    <span class="cart-icon">
+                                        <i class="bi bi-trash-fill" onclick="removeFromCart(@product.Id)"></i>
+                                    </span>
+                                    <input type="text" class="quantity form-control" value="@product.QuantityInCart" />
+                                    <span class="increase-icon"><i class="bi bi-plus"></i></span>
+                                </div>
+                            </td>
+                            <td>@(((decimal)product.Price * product.QuantityInCart).ToString("c", new CultureInfo("en-US")))</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="cart-quantity">
+            <table class="table">
+
+                <tbody>
+                    <div class="cart-total">
+                        <strong>Cart value:</strong> <span class="cart-total-price">@Model.Sum(p => p.Price * p.QuantityInCart).ToString("c", new CultureInfo("en-US"))</span>
+                    </div>
+
+                    <div class="product-total">
+                        <strong>Value of products:</strong><span class="product-total-price"> @Model.Sum(p => p.Price * p.QuantityInCart).ToString("c", new CultureInfo("en-US"))</span>
+                    </div>
+                    <div class="delivery-total">
+                        <strong>Delivery cost from:</strong><span class="delivery-total-price"> @Model.Sum(p => p.Price * p.QuantityInCart).ToString("c", new CultureInfo("en-US"))</span>
+                    </div>
+                    <div class="cart-button">
+                        <a asp-area="Customer" asp-controller="Cart" asp-action="Delivery" class="btn btn-primary">Choose your delivery method</a>
+                    </div>
+                </tbody>
+            </table>
+            <div class="discount-code">
+                <label class="discount-text" for="code" id="discount-label" onclick="toggleDiscountInput()">Do you have a discount code?</label>
+                <div id="discount-input-container" style="display: none;">
+                    <input type="text" id="code" placeholder="Enter discount code">
+                    <button onclick="applyDiscount()">></button>
+                    <div id="discount-error" style="color: red; display: none;">The field is blank, enter the discount code.</div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    
+
+}
+else
+{
+    <p>The cart is empty.</p>
+}
+
+<script src="~/js/cart.js"></script>
+
+

@@ -1,5 +1,10 @@
 ﻿.progress-bar-empty {
     background-color: #ddd;
+  
+}
+.progress-bar{
+    background-color:orange;
+    max-height:10px;
 }
 .navbar a {
     margin-left:90px;
@@ -7,4 +12,136 @@
 .progress{
     margin-left:90px;
     margin-right:-70px;
+    max-height:10px;
+   
+}
+
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cart-quantity {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 8px;
+    max-width: 400px;
+    max-height: 430px;
+    background-color: white;
+}
+.cart-details{
+    flex:1;
+    margin-right: 30px;
+    margin-left: 0px;
+    border: 1px solid #ccc;
+    background-color:white;
+    
+}
+.product-total
+{
+    font-size:15px;
+    font-weight:normal;
+    padding-top:10px;
+
+}
+.cart-total {
+    font-size: 20px;
+    text-decoration:none;
+    font-weight: normal;
+    text-decoration-color: #ff6a00;
+    padding-top: 20px;
+}
+.delivery-total {
+    font-size: 10px;
+    padding-top: 10px;
+}
+.cart-total-price{
+    margin-left:170px;
+    color: orange;
+    
+    
+}
+.product-total-price {
+    margin-left: 167px;
+   
+}
+.delivery-total-price {
+    margin-left: 228px;
+    
+}
+.cart-button {
+    margin-top: 200px;
+    text-align:center;
+}
+
+.btn-primary {
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .btn-primary:hover {
+        background-color: orange;
+    }
+
+.discount-code{
+    background-color:white;
+    color:black;
+    margin-left:-10px;
+    margin-top:90px;
+    max-width:450px;
+    max-height:90px;
+    cursor:pointer;
+    padding:10px
+    
+}
+.discount-text {
+    display:block;
+    margin-bottom:5px;
+}
+.enter-text{
+    width:340px;
+}
+.enter-discount-code{
+    background-color:orange;
+    border:none;
+    max-height:35px;
+    max-width:35px;
+    
+}
+#discount-input-container {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar a {
+        margin-left: 10px;
+    }
+
+    .progress {
+        margin-left: 10px;
+        margin-right: -10px;
+    }
+
+    .cart-container {
+        flex-direction: column;
+    }
+
+    .cart-quantity,
+    .cart-details {
+        margin: 10px; 
+    }
+
+    .cart-total-price,
+    .product-total-price,
+    .delivery-total-price {
+        margin-left: 10px;
+    }
 }

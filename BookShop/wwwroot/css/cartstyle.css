@@ -1,0 +1,17 @@
+﻿.quantity-container {
+    width: 120px;
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+.cart-icon, .increase-icon {
+    padding-top: 8px;
+    display: flex;
+    margin-right: 10px;
+    margin-left:10px;
+    
+}
+
+body {
+    background-color: rgb(241, 243, 247);
+}
